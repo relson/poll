@@ -1,8 +1,12 @@
 package ws.relink.poll.model;
 
+import java.util.List;
+
+import javax.persistence.Entity;
+
+import lombok.Builder;
 import lombok.Data;
 
-@Data
 @Entity
 @Builder
 @AllArgsConstructor
